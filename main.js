@@ -1,6 +1,6 @@
 function confirmarAsistencia() {
     const mensaje = "¡Hola! Confirmo mi asistencia al cumpleaños de Mia Arleth 🎉👸🏻";
-    const telefono = "3112836863"; // Cambiar por el número real (sin guiones ni espacios)
+    const telefono = "3111069441"; // Cambiar por el número real (sin guiones ni espacios)
     const url = `https://wa.me/${telefono}?text=${encodeURIComponent(mensaje)}`;
     window.open(url, '_blank');
 }
@@ -95,4 +95,5 @@ function observeElements() {
     document.querySelectorAll('.detail-item').forEach(item => {
         observer.observe(item);
     });
+
 }
